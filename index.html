@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Journey of Light</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", sans-serif;
+      color: #fff;
+      background: #000;
+      overflow-x: hidden;
+    }
+    section {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+    }
+    h1, h2, p {
+      margin: 0 0 15px 0;
+    }
+    h1 {
+      font-size: 3rem;
+      text-shadow: 0 0 15px rgba(255,255,255,0.7);
+    }
+    h2 {
+      font-size: 2rem;
+      text-shadow: 0 0 10px rgba(0,0,0,0.8);
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      line-height: 1.6;
+    }
+    .bg {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      filter: brightness(60%);
+    }
+  </style>
+</head>
+<body>
+
+  <section>
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" class="bg rellax" data-rellax-speed="-2">
+    <h1 data-aos="fade-up">The Journey of Light and Scenary</h1>
+    <p data-aos="fade-up" data-aos-delay="300">A story told through the action of scrolling</p>
+  </section>
+
+  <section>
+    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" class="bg rellax" data-rellax-speed="-4">
+    <h2 data-aos="fade-right">It begins in between the mountains</h2>
+    <p data-aos="fade-right" data-aos-delay="200">
+      The light was shining bright rfelecting the sun rays right from the ocean waves.
+    </p>
+  </section>
+
+  <section>
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" class="bg rellax" data-rellax-speed="-3">
+    <h2 data-aos="zoom-in">A road appeared</h2>
+    <p data-aos="zoom-in" data-aos-delay="200">
+      A single light broke through the road, carrying the promise of life right in between the valley.
+    </p>
+  </section>
+
+  <section>
+    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" class="bg rellax" data-rellax-speed="-4">
+    <h2 data-aos="flip-up">But shadows followed the light</h2>
+    <p data-aos="flip-up" data-aos-delay="200">
+    Every light casts a shadow, and every journey gets reflected by it.
+    </p>
+  </section>
+
+
+  <section>
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" class="bg rellax" data-rellax-speed="-3">
+    <h2 data-aos="fade-up">And then dawn came</h2>
+    <p data-aos="fade-up" data-aos-delay="200">
+    light returned brighter than ever, shaping a whole new beginning.
+    </p>
+  </section>
+
+
+  <section>
+    <img src="https://images.unsplash.com/photo-1503264116251-35a269479413" class="bg rellax" data-rellax-speed="-2">
+    <h1 data-aos="zoom-in">The End!</h1>
+    <p data-aos="zoom-in" data-aos-delay="200">The journey of light and Scenary</p>
+  </section>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/rellax/rellax.min.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200,
+      once: true
+    });
+    var rellax = new Rellax('.rellax');
+  </script>
+</body>
+</html>
